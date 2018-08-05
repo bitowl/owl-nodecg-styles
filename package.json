@@ -1,0 +1,28 @@
+{
+  "name": "owl-nodecg-styles",
+  "version": "0.0.0",
+  "description": "Common styles for all my NodeCG bundles",
+  "homepage": "",
+  "author": {
+    "name": "bitowl",
+    "email": "bitowl@bitowl.de",
+    "url": "https://bitowl.net"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~1.1.0",
+    "dashboardPanels": [
+    ]
+  },
+  "repository": "git@github.com:bitowl/nodecg.git",
+  "license": "MIT"
+}

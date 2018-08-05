@@ -1,0 +1,35 @@
+<link rel="import" href="/dashboard/css/nodecg-theme.html">
+<dom-module id="bitowl-theme">
+	<template>
+		<style include="nodecg-theme">
+			:host {
+				/* Fix for radio buttons*/
+				--paper-radio-button-unchecked-color: #7f7f7f;
+				--paper-radio-button-label-color: white;
+			}
+
+
+			/** Questions & Chat **/
+			.owl-chat-message {
+                border-bottom: 1px solid var(--default-primary-color);
+                display: flex;
+                padding-top: .5em;
+                padding-bottom: .5em;
+                align-items: center;
+            }
+            .owl-chat-message .name {
+                font-weight: bold;
+                color: var(--default-primary-color);
+                font-size: 14px;
+            }
+
+            .owl-chat-message .text {
+                color: #ccc;
+				/* counter the margin of the outermost <p> created by markdown */
+				margin-top: -1em;
+				margin-bottom: -1em;
+            }
+
+ 		</style>
+	</template>
+</dom-module>
