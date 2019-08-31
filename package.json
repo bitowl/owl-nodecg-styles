@@ -19,9 +19,8 @@
     "nodecg-bundle"
   ],
   "nodecg": {
-    "compatibleRange": "~1.1.0",
-    "dashboardPanels": [
-    ]
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": []
   },
   "repository": "git@github.com:bitowl/nodecg.git",
   "license": "MIT"
